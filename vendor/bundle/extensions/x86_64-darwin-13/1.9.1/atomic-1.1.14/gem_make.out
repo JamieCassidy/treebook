@@ -1,0 +1,14 @@
+/Users/JamieCassidy/.rvm/rubies/ruby-1.9.3-p484/bin/ruby extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling atomic_reference.c
+atomic_reference.c: In function ‘ir_compare_and_set’:
+atomic_reference.c:53: warning: implicit declaration of function ‘OSAtomicCompareAndSwap64’
+linking shared-object atomic_reference.bundle
+
+make  install
+/usr/bin/install -c -m 0755 atomic_reference.bundle /Users/JamieCassidy/Sites/treebook/vendor/bundle/gems/atomic-1.1.14/ext/.gem.20140127-1300-fc6eg0
+installing default atomic_reference libraries
